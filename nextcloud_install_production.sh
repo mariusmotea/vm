@@ -288,8 +288,9 @@ check_command apt install -y \
     php"$PHPVER"-smbclient \
     php"$PHPVER"-json \
     php"$PHPVER"-gmp \
-    php"$PHPVER"-bz2 \
-    php-pear
+    php"$PHPVER"-bz2 
+    
+check_command apt install -y php-pear
     # php"$PHPVER"-imagick \
     # libmagickcore-6.q16-3-extra
 
