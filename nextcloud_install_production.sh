@@ -761,9 +761,6 @@ fi
 # Set secure permissions final (./data/.htaccess has wrong permissions otherwise)
 bash $SECURE & spinner_loading
 
-# Force MOTD to show correct number of updates
-sudo /usr/lib/update-notifier/update-motd-updates-available --force
-
 # Reboot
 print_text_in_color "$IGreen" "Installation done, system will now reboot..."
 reboot
