@@ -60,7 +60,7 @@ unset CHECK_CURRENT_REPO
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON
 # 0 = OFF
-DEBUG=0
+DEBUG=1
 debug_mode
 
 # Check if root
